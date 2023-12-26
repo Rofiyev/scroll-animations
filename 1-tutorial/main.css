@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;800;900&display=swap");
+
+html {
+  background-color: #dbad84;
+  height: 100%;
+  line-height: 1.5;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+html,
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  min-height: 100%;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+.section {
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Abril Fatface", sans-serif;
+}
+
+h1 {
+  font-size: 9vw;
+  line-height: 1;
+  margin-top: 0;
+}
+.contain {
+  margin: 0 10%;
+}
+
+.hero-text {
+  width: 80%;
+  float: left;
+  text-transform: uppercase;
+}
+
+.cat {
+  font-size: 18px;
+  letter-spacing: 2px;
+  display: inline-block;
+  position: relative;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 30px;
+}
+
+.cat.margin-bottom {
+  margin-bottom: 1rem;
+}
+
+.description {
+  letter-spacing: 1px;
+  width: 100%;
+  float: left;
+  margin-bottom: 1rem;
+}
+
+.description p {
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+}
+
+#bg {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+#bg img {
+  position: absolute;
+  bottom: 0%;
+  left: 60%;
+  min-width: 1000px;
+  transform: translate(-40%, 5%);
+}
